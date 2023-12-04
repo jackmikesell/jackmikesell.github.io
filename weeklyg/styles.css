@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+.background {
+    background-color:aqua;
+}
+.header {
+    border: 10px solid yellow;
+    border-radius: 100%;
+    font-size: 4em;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    margin: 30px 40%;
+    color: green;
+}
+.para1 {
+    background-color: rgb(160, 126, 255);
+    font-size: 2em;
+    margin: 50px;
+    padding: 50px;
+    border: 5px solid red;
+}
+.para2 {
+    background-color: lavender;
+    font-size: 2em;
+    margin: 150px;
+    padding: 50px;
+    border: 20px solid green;
+}

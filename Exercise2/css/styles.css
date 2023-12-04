@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+.header-main {
+    font-size: 3em;
+    margin: 20px;
+    padding: 200px;
+    text-align: center;
+    background-image: url(../everythingOnHotdog.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.border {
+    width: 100%;
+    height: 2000px;
+    border: solid 100px white;
+    margin: 20px;
+    background-color: peachpuff;
+}
+.para-main {
+    margin: 20px 300px;
+    padding: 5px;
+    text-align: left;
+    font-size: 2em;
+}
+.italics {
+    font-style: italic;
+    font-size: 1.6em;
+    padding: 5px;
+    margin: 0;
+    color: blueviolet
+}
+.repeat-image {
+    background-image: url(../everythingOnHotdog.jpeg);
+    background-repeat: repeat;
+}
+.header2 {
+    font-size: 3em;
+    margin: 20px;
+    padding: 200px;
+    text-align: center;
+}
+.black-border {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 400px;
+}
+.links {
+    text-align: center;
+    font-size: 20px;
+
+}
+.gradient-background {
+    background-image: linear-gradient(rgb(74, 255, 74), aquamarine);
+}
+
+.header-secondary {
+    font-size: 3em;
+    margin: 20px;
+    padding: 200px;
+    text-align: center;
+}
+.dotted-border {
+    border: 10px dotted white;
+}
+
+.flower-border {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../flowerBackground.png) 60 round;
+}
+.silverstein-background {
+    background-image: url(../silverstein.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-shadow: 1.5px 1.5px black;
+}
+
+.text-styling {
+    text-decoration-line: overline underline;
+    color: white;
+}
+.kenia-font {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@keyframes change-font {
+    from {color: rgb(0, 255, 187);}
+    to {color:rgb(255, 241, 40);}
+}
+
+.para-animation {
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-name: change-font;
+}
+
+.dark-gradient-background {
+    background-image: linear-gradient(rgb(128, 0, 225), rgb(0, 4, 228));
+}

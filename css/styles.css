@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10;
+}
+
+.honeyBackground {
+    background-image: url(honeycombBackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centerButton {
+    position: absolute;
+    border: 5px solid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgb(251, 239, 213);
+    font-size: 4em;
+}
+
+.flowerAnimation {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    animation-name: flowers;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+
+.beeImage1 {
+    background-image: url(bee1.jpeg);
+    border-radius: 30%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+    background-repeat: none;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    
+}
+
+.beeImage2 {
+    background-image: url(bee2.jpeg);
+    border-radius: 30%;
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    background-size: 200px;
+    background-repeat: none;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+}
+
+.beeImage3 {
+    background-image: url(bee3.avif);
+    border-radius: 30%;
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    background-size: 200px;
+    background-repeat: none;
+    top: 85%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+}
+
+.button2 {
+    position: absolute;
+    border: 2px solid;
+    top: 75%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    background-color: rgb(255, 238, 200);
+    font-size: 1.5em;
+
+}
+
+.exercisesButton {
+    position: absolute;
+    border: 2px solid;
+    top: 75%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: tan;
+    font-size: 1.5em;
+}
+
+.item {
+    float: left;
+}
+
+.item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.item a:hover {
+    background-color: goldenrod;
+}
+
+@keyframes flowers {
+    0% {background-image: url(flowers1.avif);
+        background-size: cover;}
+    25% {background-image: url(flowers2.jpeg);
+        background-size: cover;}
+    50% {background-image: url(flowers3.jpeg);
+        background-size: cover;}
+    75% {background-image: url(flowers4.jpeg);
+        background-size: cover;}
+    100% {background-image: url(flowers1.avif);
+        background-size: cover;}
+}
+
+.column {
+    float: left;
+    width: 49.3%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+    border: solid 5px black;
+    font-size: 2em;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.weeklyPicStyling {
+    object-fit: cover;
+    height: 250px;
+    width: 710px;
+
+}
+.column2 {
+    float: left;
+    width: 49.3%;
+    border: solid 5px black;
+    font-size: 2em;
+    line-height: 0px;
+}
+
+:root {
+    --width: 100px;
+    --x-speed: 7s;
+    --y-speed: 10s;
+    --transition-speed: 2.2s;
+  }
+  
+  .el { 
+    width: var(--width);
+    height: var(--width);
+  }
+  
+  .x {
+    animation: x var(--x-speed) linear infinite alternate;
+  }
+  .y {
+    animation: y var(--y-speed) linear infinite alternate;
+  }
+  
+  @keyframes x {
+    100% {
+      transform: translateX(calc(100vw - var(--width)));
+    }
+  }
+  @keyframes y {
+    100% {
+      transform: translateY(calc(100vh - var(--width)));
+    }
+  }
+
+  .floatingBee {
+    width: 100px;
+    height: 100px;
+  }

@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+.background {
+    background-image:linear-gradient(aqua, red);
+    background-repeat: no-repeat;
+}
+.header-main {
+    font-size: 5em;
+    margin: 100px;
+    text-align: center;
+    color: purple;
+}
+.para-main {
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+.link-main {
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    color: lightblue;
+}

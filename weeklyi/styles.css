@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10;
+}
+
+.header {
+    font-size: 5em;
+    border: 5px solid teal;
+    border-radius: 50%;
+    background-color:aqua;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.background {
+    background-color: aquamarine;
+}
+
+.para1 {
+    font-size: 2em;
+    color:blanchedalmond;
+    background-color:rgb(191, 122, 255);
+    border: 10px dashed rgb(29, 115, 255);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.para2 {
+    font-size: 2em;
+    color: rgb(88, 149, 255);
+    background-color: rgb(91, 54, 114);
+    border: 8px solid rgb(255, 141, 179);
+    margin: 50px 200px;
+    padding: 10px;
+    text-align: center;
+}
